@@ -18,20 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="rtx-fH-5M3">
-                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="71T-bW-7h6"/>
-                                    <constraint firstAttribute="width" constant="100" id="QQP-lC-djp"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ufios" translatesAutoresizingMaskIntoConstraints="NO" id="3lS-DY-dO2">
-                                <rect key="frame" x="99.5" y="263.5" width="176" height="160"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="89j-F1-Beb"/>
-                                    <constraint firstAttribute="width" constant="176" id="rrE-Yk-iEi"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdN-ZI-rRM">
                                 <rect key="frame" x="87.5" y="557" width="200" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -49,7 +35,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Make That App." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7a-o0-cJp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Make This App." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7a-o0-cJp">
                                 <rect key="frame" x="20" y="60" width="335" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -61,33 +47,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ufios" translatesAutoresizingMaskIntoConstraints="NO" id="aH5-2h-wap">
+                                <rect key="frame" x="60" y="263.5" width="255" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="HrE-5T-125"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="aH5-2h-wap" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="1hN-Ds-g0r"/>
                             <constraint firstItem="Y7a-o0-cJp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="A33-Yd-5dE"/>
-                            <constraint firstItem="rtx-fH-5M3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Cjy-RY-ZxR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y7a-o0-cJp" secondAttribute="trailing" constant="20" id="MYQ-9j-GEe"/>
                             <constraint firstItem="ZdN-ZI-rRM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mds-RW-Ksi"/>
                             <constraint firstItem="VPq-SK-Uh5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VKJ-8e-hmn"/>
+                            <constraint firstItem="aH5-2h-wap" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ytr-1n-FgV"/>
                             <constraint firstItem="Y7a-o0-cJp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="ZLx-ga-NFy"/>
-                            <constraint firstItem="3lS-DY-dO2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="asq-lz-gUJ"/>
-                            <constraint firstItem="3lS-DY-dO2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="10" id="fF0-iT-ENn"/>
                             <constraint firstItem="VPq-SK-Uh5" firstAttribute="top" secondItem="Y7a-o0-cJp" secondAttribute="bottom" constant="9" id="hwD-rT-8pm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZdN-ZI-rRM" secondAttribute="bottom" constant="60" id="kRE-Bu-9he"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aH5-2h-wap" secondAttribute="trailing" constant="60" id="tzM-aS-RM9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VPq-SK-Uh5" secondAttribute="trailing" constant="20" id="vzF-8b-i65"/>
-                            <constraint firstItem="rtx-fH-5M3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ztm-Eb-fED"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="appleImageHorizontalConstraint" destination="Cjy-RY-ZxR" id="fIS-pK-0U5"/>
-                        <outlet property="appleImageVerticalConstraint" destination="ztm-Eb-fED" id="2b2-e6-i1A"/>
-                        <outlet property="appleImageView" destination="rtx-fH-5M3" id="jKQ-X7-9hw"/>
                         <outlet property="continueButton" destination="ZdN-ZI-rRM" id="szq-rg-Lk1"/>
                         <outlet property="labelBottom" destination="VPq-SK-Uh5" id="ORd-nu-aGC"/>
                         <outlet property="labelTop" destination="Y7a-o0-cJp" id="9Am-LK-80k"/>
-                        <outlet property="ufiosImageView" destination="3lS-DY-dO2" id="8pq-l1-5YO"/>
-                        <outlet property="ufiosVerticalConstraint" destination="asq-lz-gUJ" id="QkJ-vk-riU"/>
+                        <outlet property="ufiosCenterY" destination="Ytr-1n-FgV" id="QV5-m8-5KQ"/>
+                        <outlet property="ufiosImageView" destination="aH5-2h-wap" id="D9J-DC-yEo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -96,7 +84,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="apple" width="409.60000610351562" height="409.60000610351562"/>
         <image name="ufios" width="240" height="216"/>
     </resources>
 </document>

@@ -18,19 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appleWhite" translatesAutoresizingMaskIntoConstraints="NO" id="W24-bE-x2W">
-                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ufios" translatesAutoresizingMaskIntoConstraints="NO" id="OYC-Et-HH7">
+                                <rect key="frame" x="60" y="263.5" width="255" height="140"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="CNz-Uf-u98"/>
-                                    <constraint firstAttribute="width" constant="100" id="Uxk-Bv-VK7"/>
+                                    <constraint firstAttribute="height" constant="140" id="fjQ-Pg-9xW"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="W24-bE-x2W" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="T11-jb-uIQ"/>
-                            <constraint firstItem="W24-bE-x2W" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="f5s-Jy-RwX"/>
+                            <constraint firstItem="OYC-Et-HH7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ddP-Cp-4hq"/>
+                            <constraint firstItem="OYC-Et-HH7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="ipW-5N-iCL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OYC-Et-HH7" secondAttribute="trailing" constant="60" id="lBb-cz-xd6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -41,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="appleWhite" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="ufios" width="240" height="216"/>
     </resources>
 </document>
